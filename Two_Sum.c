@@ -9,7 +9,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 
     for (int i = 0; i < numsSize-1; i++) {
         tempA = nums[i];
-        for (int j = 0; j < numsSize; j++) {
+        for (int j = 0; j < numsSize-1; j++) {
             if (i != j) {
                 tempB = nums[j];
                 sumAB = tempA + tempB;
